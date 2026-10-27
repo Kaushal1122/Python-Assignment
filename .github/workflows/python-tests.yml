@@ -5,6 +5,7 @@ on:
       - feat/mysql-generator
       - feat/person-gender
       - feat/remove-duplicates
+      - feat/square-numbers
   pull_request:
     branches:
       - main
@@ -20,6 +21,7 @@ jobs:
           - mysql_generator
           - person_gender
           - remove_duplicates
+          - square_numbers
 
     defaults:
       run:
