@@ -1,0 +1,28 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# IDE settings
+.vscode/
+
+# Logs
+*.log
+
+# Ruff cache
+.ruff_cache/
+
+# Local configuration overrides
+config.local.ini
