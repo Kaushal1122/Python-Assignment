@@ -1,0 +1,51 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Ruff and type-checker caches
+.ruff_cache/
+.mypy_cache/
+.pytype/
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+config.local.ini
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Local virtual machine and tool state
+.python-version.local
