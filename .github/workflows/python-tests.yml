@@ -17,7 +17,7 @@ jobs:
       matrix:
         project:
           - mysql_generator
-          - python-gender
+          - person-gender
 
     defaults:
       run:
