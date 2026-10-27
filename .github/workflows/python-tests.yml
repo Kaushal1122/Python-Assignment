@@ -1,19 +1,30 @@
+
 name: Python Tests and Lint
 
 on:
   push:
-    branches: [main, feat/mysql-generator]
+    branches:
+      - main
+      - feat/mysql-generator
+      - feat/person-inheritance
   pull_request:
-    branches: [main]
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
   test-and-lint:
     runs-on: ubuntu-latest
 
+    strategy:
+      matrix:
+        project:
+          - mysql_generator
+          - python-gender
+
     defaults:
       run:
-        working-directory: mysql_generator
+        working-directory: ${{ matrix.project }}
 
     steps:
       - name: Checkout repository
