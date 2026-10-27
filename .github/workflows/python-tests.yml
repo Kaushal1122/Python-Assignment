@@ -1,12 +1,9 @@
-
-name: Python Tests and Lint
-
 on:
   push:
     branches:
       - main
       - feat/mysql-generator
-      - feat/person-inheritance
+      - feat/person-gender
   pull_request:
     branches:
       - main
