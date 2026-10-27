@@ -4,6 +4,7 @@ on:
       - main
       - feat/mysql-generator
       - feat/person-gender
+      - feat/remove-duplicates
   pull_request:
     branches:
       - main
