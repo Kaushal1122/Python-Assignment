@@ -18,6 +18,7 @@ jobs:
         project:
           - mysql_generator
           - person_gender
+          - remove_duplicates
 
     defaults:
       run:
