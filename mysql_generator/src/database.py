@@ -7,7 +7,6 @@ from mysql.connector import Error
 
 from src.config import load_config
 
-
 logger = logging.getLogger(__name__)
 
 

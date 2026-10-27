@@ -3,7 +3,6 @@ import logging
 
 from src.database import get_connection
 
-
 logger = logging.getLogger(__name__)
 
 

@@ -52,6 +52,5 @@ def test_connection_failure(monkeypatch):
         ),
     )
 
-    with pytest.raises(DatabaseConnectionError):
-        with get_connection():
-            pass
+    with pytest.raises(DatabaseConnectionError), get_connection():
+        pass
