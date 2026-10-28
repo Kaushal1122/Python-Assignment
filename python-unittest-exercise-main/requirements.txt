@@ -1,0 +1,5 @@
+boto3
+pytest
+pytest-cov
+moto[dynamodb,s3]
+PyYAML>=6.0.3
