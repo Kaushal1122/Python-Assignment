@@ -2,6 +2,7 @@ from unittest.mock import patch
 
 from src.general_example import GeneralExample
 
+
 def test_flatten_dictionary():
     content = {
         "key1": [3, 2, 1],

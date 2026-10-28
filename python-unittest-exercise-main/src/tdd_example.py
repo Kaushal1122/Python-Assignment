@@ -1,4 +1,4 @@
-class TDDExample():
+class TDDExample:
     def __init__(self):
         pass
 

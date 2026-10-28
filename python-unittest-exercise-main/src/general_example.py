@@ -1,19 +1,21 @@
 import time
-from typing import Dict, List
 
     
-class GeneralExample():
-    def flatten_dictionary(content: Dict) -> List:
-        '''
+class GeneralExample:
+    def flatten_dictionary(content: dict) -> list:
+        """
         Example of this function call:
-            flatten_dictionary({'key1': [3, 2, 1], 'key2': [42, 55, 10], 'key3': [0, 22]})
+            flatten_dictionary({
+                "key1": [3, 2, 1],
+                "key2": [42, 55, 10],
+                "key3": [0, 22],
+            })
             output: [0, 1, 2, 3, 10, 22, 42, 55]
-        '''
+        """
+        return sorted({x for values in content.values() for x in values})
 
-        return sorted({x for v in content.values() for x in v})
 
-
-    def load_employee_rec_from_database(self) -> List:
+    def load_employee_rec_from_database(self) -> list:
         time.sleep(10)
         sample_emp_record = ['emp001', 'Sam', '100000']
         return sample_emp_record

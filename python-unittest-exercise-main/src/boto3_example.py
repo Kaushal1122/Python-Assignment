@@ -1,7 +1,7 @@
 import boto3
 
 
-class S3Example(object):
+class S3Example:
     def __init__(self, bucket_name, name, value):
         self.bucket_name = bucket_name
         self.name = name
@@ -12,14 +12,14 @@ class S3Example(object):
         s3.put_object(Bucket=self.bucket_name, Key=self.name, Body=self.value)
 
 
-class DynamodBExample(object):
+class DynamodBExample:
     def __init__(self):
         print('Initializing class')
 
     def create_movies_table(self) -> None:
         dynamodb = boto3.resource('dynamodb', region_name='us-east-1')
 
-        table = dynamodb.create_table(
+        dynamodb.create_table(
             TableName='Movies',
             KeySchema=[
                 {

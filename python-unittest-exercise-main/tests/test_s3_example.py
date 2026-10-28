@@ -1,7 +1,8 @@
 import boto3
 import pytest
-from moto import mock_aws
 from botocore.exceptions import ParamValidationError
+from moto import mock_aws
+
 from src.boto3_example import S3Example
 
 
