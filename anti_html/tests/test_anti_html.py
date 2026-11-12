@@ -106,9 +106,8 @@ def test_main_http_error(monkeypatch, capsys):
     with patch(
         "src.anti_html.strip_html",
         side_effect=requests.RequestException("Connection failed"),
-    ):
-        with pytest.raises(SystemExit) as error:
-            anti_html.main()
+    ), pytest.raises(SystemExit) as error:
+        anti_html.main()
 
     assert error.value.code == 2
 
