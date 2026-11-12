@@ -28,7 +28,7 @@ person_gender/
 
 ## Prerequisites
 
-- Python 3.15 or a compatible Python version.
+- Python 3.13 or a compatible Python version.
 - Git.
 
 ## Setup

@@ -37,7 +37,7 @@ mysql_generator/
 
 ## Requirements
 
-- Python 3.15
+- Python 3.13
 - MySQL Server 8.0 or a compatible version
 - Git
 - The MySQL Employees sample database
@@ -50,7 +50,7 @@ Clone this project from GitHub, then navigate to the project directory:
 
 ```powershell
 git clone https://github.com/Kaushal1122/Python-Assignment.git
-cd mysql_generator
+cd Python-Assignment/mysql_generator
 ```
 
 

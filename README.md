@@ -20,6 +20,7 @@ The programs aim to follow:
 3. Removing Duplicates While Preserving Order
 4. Using `map()` and `lambda` to Calculate Squares
 5. Removing HTML Tags from Web Content
+6. Unit testing for the provided project
 
 ## Technologies
 
@@ -28,4 +29,4 @@ The programs aim to follow:
 - pytest
 - Git and GitHub
 
-Each program will include its implementation, relevant tests, and instructions for execution.
+Each program includes its implementation, relevant tests, and instructions for execution.
