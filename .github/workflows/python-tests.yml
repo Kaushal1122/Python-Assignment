@@ -8,6 +8,7 @@ on:
       - feat/square-numbers
       - feat/anti-html
       - feat/python-unittest-exercise
+      - feat/assignment-updates
   pull_request:
     branches:
       - main
