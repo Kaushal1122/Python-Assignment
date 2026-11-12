@@ -10,6 +10,10 @@ def strip_html(url: str) -> str:
     response.raise_for_status()
 
     soup = BeautifulSoup(response.text, "html.parser")
+
+    for element in soup(["script", "style"]):
+        element.decompose()
+
     return soup.get_text(separator="\n", strip=True)
 
 
